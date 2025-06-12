@@ -1,0 +1,57 @@
+.body {
+	max-width: 100%;
+	font-family: monospace;
+	box-shadow: 20px rgb(0, 0, 0 / 1.0);
+
+}
+
+.first {
+	border: solid 3px #DADADA;
+	margin: 40px;
+	padding: 2px;
+	font-size: 20px;
+	border-radius: 15px;
+	text-align: center;
+	width: 100rem;
+}
+h1 {
+	font-size: 80px;
+	position: relative;
+	left: 40px;
+	top: 3rem;
+}
+
+.right {
+	position: relative;
+	left: 700px;
+	top: -380px;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.text {
+	font-size: 25px;
+	font-weight: bold 7px;
+	position: relative;
+	left: 40px;
+	top: 15rem;
+}
+.button {
+	padding: 20px;
+	width: 20rem;
+	position: relative;
+	top: -75rem;
+	right: -68rem;
+	background-color: transparent;
+	z-index: 2;
+	border-radius: 30px;
+	color: white;
+	border-color: white;
+	text-align: left;
+	font-size: 20px;
+}
+
+.down {
+	position: relative;
+	top: -41rem;
+}
