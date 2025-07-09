@@ -1,57 +1,69 @@
 .body {
-	max-width: 100%;
+	width: autopx;
+	height: auto;
 	font-family: monospace;
-	box-shadow: 20px rgb(0, 0, 0 / 1.0);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.box {
+	width: 100rem;
+	height: 70rem;
+	border: 2px solid #ccc;
+	margin-left: 50px;
+	margin-top: 20px;
+}
 
+.main {
+    transform: translate(3rem, 3rem);
+     
 }
 
 .first {
 	border: solid 3px #DADADA;
-	margin: 40px;
-	padding: 2px;
+	padding: px;
 	font-size: 20px;
 	border-radius: 15px;
-	text-align: center;
-	width: 100rem;
+	width: 95rem;
+	margin: 40px;
+
 }
 h1 {
 	font-size: 80px;
-	position: relative;
-	left: 40px;
-	top: 3rem;
+
 }
 
 .right {
-	position: relative;
-	left: 700px;
-	top: -380px;
 	border-radius: 20px;
+	transform: translate( 40rem, -22rem);
+	position: relative;
 	z-index: 1;
 }
 
 .text {
 	font-size: 25px;
 	font-weight: bold 7px;
-	position: relative;
-	left: 40px;
-	top: 15rem;
+	transform: translateY(15rem);
+	
 }
 .button {
-	padding: 20px;
+	padding: 18px;
 	width: 20rem;
-	position: relative;
-	top: -75rem;
-	right: -68rem;
 	background-color: transparent;
 	z-index: 2;
-	border-radius: 30px;
+	border-radius: 33px;
 	color: white;
 	border-color: white;
 	text-align: left;
 	font-size: 20px;
+	transform: translate(65rem, -73rem);
+    position: relative;
+	z-index: 2;
 }
 
 .down {
-	position: relative;
-	top: -41rem;
+	transform: translate(2rem, -39rem);
+
 }
+
